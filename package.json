@@ -1,0 +1,7 @@
+{
+  "name": "test-tron",
+  "version": "1.0.0",
+  "dependencies": {
+    "tronweb": "^2.0.30"
+  }
+}
