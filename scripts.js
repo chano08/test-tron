@@ -31,9 +31,9 @@ let test = async () => {
 
         // Failed to execute
         let employee = await tronWeb.contract(EmployeeABI, employees[0].replace(/^(0x)/, '41'));
-        
-        console.log(`name`, await employee.methods.name().call())
-        console.log(`job`, await employee.methods.job().call())
+
+        let name = await employee.methods.name().call()
+        // console.log(`job`, await employee.methods.job().call())
 
     } catch( err ) {
 
